@@ -1,0 +1,67 @@
+name,qty,category,location
+AC to USB-A with button,1,adapter,half_crate_white_1
+Govee 12V - 1.5A,2,adapter,half_crate_white_1
+Single 5V 1A,7,adapter,half_crate_white_1
+AC to USB-C,1,adapter,half_crate_white_1
+19V - 2.1A,1,adapter,half_crate_white_1
+5V - 2A,2,adapter,half_crate_white_1
+12V - 1.5A ,1,adapter,half_crate_white_1
+5V - 2.1A - 2x USB-A,1,adapter,half_crate_white_1
+5V - 2.4A - 2x USB-A,1,adapter,half_crate_white_1
+USB-A to Micro-USB,14,cable,half_crate_white_1
+USB-A to USB-B,8,cable,full_crate_black_1
+USB-A to USB-C,8,cable,full_crate_black_1
+USB-C to Lightning,2,cable,full_crate_black_1
+USB-A to Lightning,4,cable,full_crate_black_1
+USB-C to USB-C,2,cable,full_crate_black_1
+VGA to VGA,1,cable,half_crate_white_2
+AC - D (Nema 15),6,cable,half_crate_stealth_1
+CAT6 - 100ft,1,cable,half_crate_stealth_1
+CAT6 - 6ft,20,cable,full_crate_black_2
+CAT6 - 3ft,13,cable,full_crate_black_2
+CAT6 - 10ft,2,cable,full_crate_black_2
+Miscellaneos Power Cords,6,cable,full_crate_black_1
+Intel Nuc Power,1,cable,full_crate_stealth_1
+Lenovo Mini Power,1,cable,full_crate_stealth_1
+Half of Lenovo mini,1,cable,full_crate_stealth_1
+Asus mini laptop,1,device,half_crate_white_1
+Sony Cybershot Battery,1,device,half_crate_white_1
+USB Hub (4/3 ports),1,device,full_crate_black_1
+USB N64,1,device,half_crate_white_2
+USB PS2,1,device,half_crate_white_2
+USB NES,1,device,half_crate_white_2
+USB SNES,1,device,half_crate_white_2
+USB Sega,1,device,half_crate_white_2
+iPhone,2,device,half_crate_white_2
+Raspberry Pi 4,1,device,half_crate_white_2
+Raspberry Pi Zero,1,device,half_crate_white_2
+Intel Stick Computer,1,device,half_crate_white_2
+iPod Color,1,device,half_crate_white_2
+External Hard Drive,2,device,half_crate_white_2
+Power Bank,2,device,half_crate_white_2
+Pendo Box,1,device,half_crate_white_2
+Mini Monitor,1,device,half_crate_white_2
+Powered Hub USBC - x8 USBA,1,device,half_crate_orange_1
+Hub USBC - 4x USBA,1,device,half_crate_orange_1
+Hub USBC - 3x USBA 1x RJ45,1,device,half_crate_orange_1
+Intel Nuc,1,device,full_crate_stealth_1
+Lenovo Mini PC,2,device,full_crate_stealth_1
+Dream Router,1,device,full_crate_gray_1
+UAP-Beacon HD,1,device,full_crate_gray_1
+Swiss Army Knife,1,device,full_crate_gray_1
+External Hard Drive Enclosure,1,device,full_crate_gray_1
+Server HD 1TB,2,device,full_crate_gray_1
+NAS HD 4TB,2,device,full_crate_gray_1
+Server HD Mounts,10,misc,full_crate_gray_1
+"1/4"" Stereo Patch",9,cable,full_crate_gray_2
+"1/4"" Insert Patch",2,cable,full_crate_gray_2
+MIDI to USB-A,3,cable,full_crate_gray_2
+MIDI to MIDI,2,cable,full_crate_gray_2
+"1/4"" Mono 10ft",1,cable,full_crate_gray_2
+"1/4"" to RCA 2x2",1,cable,full_crate_gray_2
+"1/8"" to RCA 1x2",2,cable,full_crate_gray_2
+"1/8"" to RCA(F) 1x2",1,cable,full_crate_gray_2
+"1/8"" Stereo Patch",5,cable,full_crate_gray_2
+"1/8"" to MIDI Jumper",1,cable,full_crate_gray_2
+"1/8"" to Lightning",1,cable,full_crate_gray_2
+Shure Beta 58,1,device,full_crate_gray_2

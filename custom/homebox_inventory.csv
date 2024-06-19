@@ -1,0 +1,67 @@
+HB.name,HB.quantity,HB.field.category,HB.location,HB.import_ref
+AC to USB-A with button,1,adapter,Office/half_crate_white_1,ref_000005
+Govee 12V - 1.5A,2,adapter,Office/half_crate_white_1,ref_000006
+Single 5V 1A,7,adapter,Office/half_crate_white_1,ref_000007
+AC to USB-C,1,adapter,Office/half_crate_white_1,ref_000008
+19V - 2.1A,1,adapter,Office/half_crate_white_1,ref_000009
+5V - 2A,2,adapter,Office/half_crate_white_1,ref_000010
+12V - 1.5A ,1,adapter,Office/half_crate_white_1,ref_000011
+5V - 2.1A - 2x USB-A,1,adapter,Office/half_crate_white_1,ref_000012
+5V - 2.4A - 2x USB-A,1,adapter,Office/half_crate_white_1,ref_000013
+USB-A to Micro-USB,14,cable,Office/half_crate_white_1,ref_000014
+USB-A to USB-B,8,cable,Office/full_crate_black_1,ref_000015
+USB-A to USB-C,8,cable,Office/full_crate_black_1,ref_000016
+USB-C to Lightning,2,cable,Office/full_crate_black_1,ref_000017
+USB-A to Lightning,4,cable,Office/full_crate_black_1,ref_000018
+USB-C to USB-C,2,cable,Office/full_crate_black_1,ref_000019
+VGA to VGA,1,cable,Office/half_crate_white_2,ref_000020
+AC - D (Nema 15),6,cable,Office/half_crate_stealth_1,ref_000021
+CAT6 - 100ft,1,cable,Office/half_crate_stealth_1,ref_000022
+CAT6 - 6ft,20,cable,Office/full_crate_black_2,ref_000023
+CAT6 - 3ft,13,cable,Office/full_crate_black_2,ref_000024
+CAT6 - 10ft,2,cable,Office/full_crate_black_2,ref_000025
+Miscellaneos Power Cords,6,cable,Office/full_crate_black_1,ref_000026
+Intel Nuc Power,1,cable,Office/full_crate_stealth_1,ref_000027
+Lenovo Mini Power,1,cable,Office/full_crate_stealth_1,ref_000028
+Office/half of Lenovo mini,1,cable,Office/full_crate_stealth_1,ref_000029
+Asus mini laptop,1,device,Office/half_crate_white_1,ref_000030
+Sony Cybershot Battery,1,device,Office/half_crate_white_1,ref_000031
+USB Hub (4/3 ports),1,device,Office/full_crate_black_1,ref_000032
+USB N64,1,device,Office/half_crate_white_2,ref_000033
+USB PS2,1,device,Office/half_crate_white_2,ref_000034
+USB NES,1,device,Office/half_crate_white_2,ref_000035
+USB SNES,1,device,Office/half_crate_white_2,ref_000036
+USB Sega,1,device,Office/half_crate_white_2,ref_000037
+iPhone,2,device,Office/half_crate_white_2,ref_000038
+Raspberry Pi 4,1,device,Office/half_crate_white_2,ref_000039
+Raspberry Pi Zero,1,device,Office/half_crate_white_2,ref_000040
+Intel Stick Computer,1,device,Office/half_crate_white_2,ref_000041
+iPod Color,1,device,Office/half_crate_white_2,ref_000042
+External Hard Drive,2,device,Office/half_crate_white_2,ref_000043
+Power Bank,2,device,Office/half_crate_white_2,ref_000044
+Pendo Box,1,device,Office/half_crate_white_2,ref_000045
+Mini Monitor,1,device,Office/half_crate_white_2,ref_000046
+Powered Hub USBC - x8 USBA,1,device,Office/half_crate_orange_1,ref_000047
+Hub USBC - 4x USBA,1,device,Office/half_crate_orange_1,ref_000048
+Hub USBC - 3x USBA 1x RJ45,1,device,Office/half_crate_orange_1,ref_000049
+Intel Nuc,1,device,Office/full_crate_stealth_1,ref_000050
+Lenovo Mini PC,2,device,Office/full_crate_stealth_1,ref_000051
+Dream Router,1,device,Office/full_crate_gray_1,ref_000052
+UAP-Beacon HD,1,device,Office/full_crate_gray_1,ref_000053
+Swiss Army Knife,1,device,Office/full_crate_gray_1,ref_000054
+External Hard Drive Enclosure,1,device,Office/full_crate_gray_1,ref_000055
+Server HD 1TB,2,device,Office/full_crate_gray_1,ref_000056
+NAS HD 4TB,2,device,Office/full_crate_gray_1,ref_000057
+Server HD Mounts,10,misc,Office/full_crate_gray_1,ref_000058
+"1/4"" Stereo Patch",9,cable,Office/full_crate_gray_2,ref_000059
+"1/4"" Insert Patch",2,cable,Office/full_crate_gray_2,ref_000060
+MIDI to USB-A,3,cable,Office/full_crate_gray_2,ref_000061
+MIDI to MIDI,2,cable,Office/full_crate_gray_2,ref_000062
+"1/4"" Mono 10ft",1,cable,Office/full_crate_gray_2,ref_000063
+"1/4"" to RCA 2x2",1,cable,Office/full_crate_gray_2,ref_000064
+"1/8"" to RCA 1x2",2,cable,Office/full_crate_gray_2,ref_000065
+"1/8"" to RCA(F) 1x2",1,cable,Office/full_crate_gray_2,ref_000066
+"1/8"" Stereo Patch",5,cable,Office/full_crate_gray_2,ref_000067
+"1/8"" to MIDI Jumper",1,cable,Office/full_crate_gray_2,ref_000068
+"1/8"" to Lightning",1,cable,Office/full_crate_gray_2,ref_000069
+Shure Beta 58,1,device,Office/full_crate_gray_2,ref_000070

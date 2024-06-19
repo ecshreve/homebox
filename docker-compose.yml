@@ -1,11 +1,22 @@
+version: "3.4"
+
 services:
   homebox:
-    image: homebox
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-      args:
-        - COMMIT=head
-        - BUILD_TIME=0001-01-01T00:00:00Z
+    image: ghcr.io/hay-kot/homebox:latest
+    # For rootless, uncomment the following line and comment the above line:
+    # image: ghcr.io/hay-kot/homebox:latest-rootless
+    container_name: homebox
+    restart: unless-stopped
+    environment:
+      - HBOX_LOG_LEVEL=info
+      - HBOX_LOG_FORMAT=text
+      - HBOX_WEB_MAX_UPLOAD_SIZE=10
+      - TZ=America/Los_Angeles
+    volumes:
+      - homebox-data:/data/
     ports:
       - 3100:7745
+
+volumes:
+  homebox-data:
+    driver: local
