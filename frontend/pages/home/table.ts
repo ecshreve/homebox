@@ -4,7 +4,7 @@ export function itemsTable(api: UserClient) {
   const { data: items, refresh } = useAsyncData(async () => {
     const { data } = await api.items.getAll({
       page: 1,
-      pageSize: 5,
+      pageSize: 20,
       orderBy: "createdAt",
     });
     return data.items;

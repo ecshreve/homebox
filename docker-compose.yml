@@ -1,10 +1,7 @@
-version: "3.4"
-
 services:
   homebox:
-    image: ghcr.io/hay-kot/homebox:latest
-    # For rootless, uncomment the following line and comment the above line:
-    # image: ghcr.io/hay-kot/homebox:latest-rootless
+    # image: ghcr.io/hay-kot/homebox:latest
+    build: .
     container_name: homebox
     restart: unless-stopped
     environment:
@@ -13,10 +10,10 @@ services:
       - HBOX_WEB_MAX_UPLOAD_SIZE=10
       - TZ=America/Los_Angeles
     volumes:
-      - homebox-data:/data/
+      - homebox-data2:/data/
     ports:
       - 3100:7745
 
 volumes:
-  homebox-data:
+  homebox-data2:
     driver: local

@@ -49,12 +49,16 @@
                 {{ d.name }}
               </NuxtLink>
             </template>
-            <template v-else-if="cell(h) === 'cell-purchasePrice'">
-              <Currency :amount="d.purchasePrice" />
+            <template v-else-if="cell(h) === 'cell-labels'">
+              <div class="flex gap-2 flex-wrap">
+                <LabelChip v-for="label in d.labels" :key="label.id" :label="label" />
+              </div>
             </template>
-            <template v-else-if="cell(h) === 'cell-insured'">
-              <MdiCheck v-if="d.insured" class="text-green-500 h-5 w-5 inline" />
-              <MdiClose v-else class="text-red-500 h-5 w-5 inline" />
+            <template v-else-if="cell(h) === 'cell-location_name'">
+              {{ d.location.name }}
+            </template>
+            <template v-else-if="cell(h) === 'cell-quantity'">
+              {{ d.quantity }}
             </template>
             <slot v-else :name="cell(h)" v-bind="{ item: d }">
               {{ extractValue(d, h.value) }}
@@ -78,8 +82,6 @@
   import type { ItemSummary } from "~~/lib/api/types/data-contracts";
   import MdiArrowDown from "~icons/mdi/arrow-down";
   import MdiArrowUp from "~icons/mdi/arrow-up";
-  import MdiCheck from "~icons/mdi/check";
-  import MdiClose from "~icons/mdi/close";
 
   type Props = {
     items: ItemSummary[];
@@ -91,9 +93,9 @@
   const headers = computed<TableHeader[]>(() => {
     return [
       { text: "Name", value: "name" },
+      { text: "Labels", value: "labels", align: "right" },
+      { text: "Location", value: "location.name" },
       { text: "Quantity", value: "quantity", align: "center" },
-      { text: "Insured", value: "insured", align: "center" },
-      { text: "Price", value: "purchasePrice" },
     ] as TableHeader[];
   });
 

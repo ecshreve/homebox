@@ -15,12 +15,12 @@ export function statCardData(api: UserClient) {
   return computed(() => {
     return [
       {
-        label: "Total Value",
+        label: "Total Items",
         value: statistics.value?.totalItemPrice || 0,
-        type: "currency",
+        type: "number",
       },
       {
-        label: "Total Items",
+        label: "Unique Items",
         value: statistics.value?.totalItems || 0,
         type: "number",
       },

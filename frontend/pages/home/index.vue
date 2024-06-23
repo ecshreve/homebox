@@ -15,7 +15,7 @@
   const breakpoints = useBreakpoints();
 
   const locationStore = useLocationStore();
-  const locations = computed(() => locationStore.parentLocations);
+  const locations = computed(() => locationStore.allLocations);
 
   const labelsStore = useLabelStore();
   const labels = computed(() => labelsStore.labels);
@@ -34,7 +34,7 @@
         </div>
       </section>
 
-      <section>
+      <!-- <section>
         <Subtitle> Recently Added </Subtitle>
 
         <BaseCard v-if="breakpoints.lg">
@@ -43,7 +43,7 @@
         <div v-else class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <ItemCard v-for="item in itemTable.items" :key="item.id" :item="item" />
         </div>
-      </section>
+      </section> -->
 
       <section>
         <Subtitle> Storage Locations </Subtitle>

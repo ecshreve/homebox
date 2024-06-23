@@ -30,5 +30,6 @@
 	"editor.quickSuggestions": {
 		"strings": true
 	},
-  "tailwindCSS.experimental.configFile": "./frontend/tailwind.config.js"
+  "tailwindCSS.experimental.configFile": "./frontend/tailwind.config.js",
+  "ansible.python.interpreterPath": "/Users/eric/.pyenv/versions/3.11.8/bin/python"
 }
